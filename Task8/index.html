@@ -1,0 +1,52 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Task 8</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <form action="a.html" method="post">
+            <label for="name">Username:</label><br>
+            <input type="text" placeholder="Username" id="name" name="Username" required><hr>
+
+            <label for="E-mail">Email:</label><br>
+            <input type="email" placeholder="Email" id="E-mail" name="Email" required><hr>
+
+            <label for="Phone">Phone Number:</label><br>
+            <input type="tel" placeholder="Phone Number" id="Phone" name="Phone_Number" required><hr>
+
+            <label>Course:</label><br>
+            <input type="text" placeholder="Course" value="Front_End" name="Course" readonly><hr>
+
+            <label for="password">Password:</label><br>
+            <input type="password" placeholder="Password" id="password" name="Password" required min="5" maxlength="5"><hr>
+
+            <h4>What is your favourite color?</h4><br>
+            <input type="checkbox" name="Color" id="color1"> <label for="color1"> Red </label> <br>
+            <input type="checkbox" name="Color" id="color2"> <label for="color2"> Green </label> <br>
+            <input type="checkbox" name="Color" id="color3"> <label for="color3"> Yellow </label> <br>
+            <input type="checkbox" name="Color" id="color4"> <label for="color4"> Black </label> <br>
+            <hr>
+
+            <h4>Choose your operating system:</h4>
+            <input type="radio" name="operating" id="operating1"> <label for="operating1"> Windows </label> <br>
+            <input type="radio" name="operating" id="operating2"> <label for="operating2"> Linux </label> <br>
+            <input type="radio" name="operating" id="operating3"> <label for="operating3"> Mac </label> <br>
+            <hr>
+
+            <h4>What is the difference between checkbox and radio?</h4>
+            <p>
+                In the beginning, bot of them are for choose form choices. But we can say that there is two difference between them:<br><br>
+                1- In checkbox, we can choose one or more choices.<br>
+                   In radio, we can choose just one choice.
+                <br><br>
+                2- In checkbox, it uses a square shape for the choices.<br>
+                   In radio, it uses a circle shape for the choices.
+            </p>
+            <hr>
+
+            <input type="hidden" value="Hello!" id="Hidden" name="hidden">
+            <input type="submit" value="Send">
+        </form>
+    </body>
+</html>

@@ -6,3 +6,5 @@ The tasks Number:
 3- Task 4
 4- Task 5
 5- Task 6
+6- Task 7
+7- Task 8
