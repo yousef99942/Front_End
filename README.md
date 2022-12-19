@@ -1,10 +1,3 @@
-This branch is for Html tasks
+This branch is for CSS tasks
 
-The tasks Number:
-1- Task 2
-2- Task 3
-3- Task 4
-4- Task 5
-5- Task 6
-6- Task 7
-7- Task 8
+The tasks are:
