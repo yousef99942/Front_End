@@ -1,4 +1,4 @@
 This branch is for Github tasks
 
-The tasks number:
+The tasks are:
 1- Task1
