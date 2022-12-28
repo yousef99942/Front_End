@@ -1,0 +1,43 @@
+/* stylesheet 1 */
+/*
+I made a div style because
+all the div has the same image and image size
+*/
+div{
+    background-image: url("../images/5.jpg");
+    height: 400px;
+    width: 400px;
+    font-family: "Arial Black";
+    color: bisque;
+    font-size: medium;
+}
+
+/*
+this style is for the first div
+ */
+.div1{
+    background-repeat: no-repeat;
+}
+
+/*
+this style is for the second div
+ */
+.div2{
+    background-repeat: repeat-y;
+    background-position: right;
+}
+
+/*
+this style is for the third div
+ */
+.div3{
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+
+/*
+this style is for the fourth div
+ */
+.div4{
+    background-repeat: repeat;
+}

@@ -1,0 +1,31 @@
+/* Valid */
+._my-div{
+}
+
+/* Valid */
+.-my-div{
+}
+
+/* not Valid */
+.12mydiv{
+}
+
+/* not Valid */
+.% mydiv{
+}
+
+/* not Valid */
+.@my-div{
+}
+
+/* not Valid */
+.my @div{
+}
+
+/* Valid */
+._my87div{
+}
+
+/* Valid */
+.div{
+}

@@ -1,0 +1,21 @@
+/* stylesheet 1 */
+div{
+    font-size: large;
+    height: 225px;
+    width: 300px;
+}
+
+.div1{
+    color: #1F161E;
+    background-color: #BF98F6;
+}
+
+.div2{
+    color: #FFFFFF;
+    background-color: #422967;
+}
+
+.div3{
+    color: #FFFFFF;
+    background-color: #BEB6CB;
+}
